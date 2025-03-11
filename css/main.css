@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 img {
     width: 100%;
@@ -85,4 +85,76 @@ img {
     p {
         font-size: 1.5rem;
     }
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+.container-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 2.4%;
+    left: 25%;
+    z-index: 3;
+}
+
+.arrow {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    cursor: pointer;
+    fill: #FFF;
+}
+
+.cross {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    width: 32px;
+    height: 32px;
+    transition: 0.4s;
+}
+
+.left {
+    left: 48px;
+}
+
+.right {
+    right: 48px;
+}
+
+.description {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.black-background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000000a1;
 }
